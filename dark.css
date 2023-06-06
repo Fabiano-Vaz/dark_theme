@@ -1,0 +1,232 @@
+/* Reset CSS para garantir uma base consistente */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos globais */
+html {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+/* Estilos para tags específicas */
+
+/* Cabeçalho */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  font-weight: 700;
+}
+
+/* Parágrafos */
+p {
+  color: #ccc;
+  line-height: 1.5;
+}
+
+/* Links */
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Botões */
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Estilos para tabelas */
+table {
+  color: #ccc;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #444;
+  color: #fff;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #555;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #2f2f2f;
+}
+
+tr:hover {
+  background-color: #333;
+}
+
+/* Adicionando um efeito de transição suave ao passar o mouse nas células */
+td:hover {
+  background-color: #444;
+  transition: background-color 0.3s ease;
+}
+
+
+/* Formulários */
+input[type="text"],
+input[type="email"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #777;
+}
+
+/* Estilos para textareas */
+textarea {
+  background-color: #333;
+  color: #fff;
+  border: 0.5;
+  padding: 8px;
+  border-radius: 3px;
+  resize: vertical;
+}
+
+textarea:focus {
+  outline: none;
+  border: 1px solid #777;
+  background-color: #444;
+}
+
+textarea::placeholder {
+  color: #aaa;
+}
+
+/* Adicionando uma transição suave ao focar no textarea */
+textarea:focus {
+  transition: border-color 0.3s ease;
+}
+
+/* Listas */
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Exemplo adicional - Estilo para uma classe específica */
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-theme a {
+  color: #ccc;
+}
+
+/* Estilos para botões */
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Adicionando uma transição suave ao focar no botão */
+button:focus {
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+/* Estilo para botão primário */
+.primary-button {
+  background-color: #ff5500;
+}
+
+.primary-button:hover {
+  background-color: #ff7700;
+}
+
+/* Estilo para botão secundário */
+.secondary-button {
+  background-color: #777;
+  color: #fff;
+}
+
+.secondary-button:hover {
+  background-color: #999;
+}
+
+/* Estilo para botão de ícone */
+.icon-button {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.icon-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Estilo para botão de ícone com efeito de elevação */
+.icon-button.elevate {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+
+.icon-button.elevate:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
